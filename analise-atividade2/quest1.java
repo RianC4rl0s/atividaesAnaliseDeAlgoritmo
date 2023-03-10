@@ -4,9 +4,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 class Combination {
-    ArrayList<Integer> id = new ArrayList<Integer>();
-    ArrayList<Double> v = new ArrayList<Double>();
-    ArrayList<Double> w = new ArrayList<Double>();
+    ArrayList<Integer> id = new ArrayList<Integer>(); //ID da combinação
+    ArrayList<Double> v = new ArrayList<Double>(); //Valores dos Items da Combinação
+    ArrayList<Double> w = new ArrayList<Double>(); //Pesos dos Items da Combinação
     double we = 0, va = 0;
 
     public double totalWeight(){
@@ -63,11 +63,12 @@ public class quest1 {
         double value = 0.0;
         double weight = 0.0;
         for (int i = 0; i < items; i++) {
-
+            
+            value = r.nextInt(50);
             while (value == 0.0) {
                 value = r.nextInt(50);
             }
-
+            weight = r.nextInt(15);
             while (weight == 0.0) {
                 weight = r.nextInt(15);
             }
@@ -115,7 +116,9 @@ public class quest1 {
                 maxWeight = combinations.get(i).we;
             }
         }
-
+        
+        System.out.println("Items:" + values);
+        System.out.println("Pesos:" + weights);
         System.out.println("Produtos adicionados: " + combinations.get(pos).id);
         System.out.println("Valores: " + combinations.get(pos).v);
         System.out.println("Pesos: " + combinations.get(pos).w);
