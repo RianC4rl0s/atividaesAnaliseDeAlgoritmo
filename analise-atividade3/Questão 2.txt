@@ -1,0 +1,19 @@
+Questão 2
+
+E0:
+d(6) = 3
+d(7) = 2
+d(8) = 1
+
+E1:
+d(8) = 2 (antes era 1)
+
+E2:
+d(7) = 3 (antes era 2)
+
+E3:
+d(6) = 2 (antes era 3)
+
+O próximo estado tem de ser E3, pois é o único estado que apresenta ganhos quando comparado ao estado anterior.
+Nos estados E1 e E2 o movimento realizado aumenta a distância das peças movimentadas.
+Já no estado E3, a distância da peça movimentada é reduzida.
