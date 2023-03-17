@@ -1,0 +1,5 @@
+Um algoritmo guloso toma decisões com base no que está ocorrendo adiante, tentando assim buscar o resultado desejado retornando 
+(backtracing) caso não tenha-o encotnrado. No problema da mochila binária, a gente vê um algoritmo de base N! que necessita você 
+encontrar o melhor valor possível que não ultrapasse a capacidade da mochila. Então é necessário ver todas as 
+possibilidades para encontrar o resultado desejado. Não é apenas encontrar algo que cabe na mochila, encontrar o melhor 
+resultado possível. Então isso torna o algoritmo nitidamente algo a ser feito utilizando força bruta.
