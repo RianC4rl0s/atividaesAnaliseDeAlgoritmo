@@ -1,0 +1,3 @@
+Backtracking é uma técnica de programação de busca que permite encontrar soluções para um problema examinando possíveis candidatos de forma recursiva. Comparado à busca exaustiva, que examina todas as possíveis soluções para um problema, o backtracking é mais eficiente porque pode ser interrompido assim que uma solução é encontrada, eliminando soluções parciais que não levam a uma solução completa e permitindo uma exploração em profundidade.
+
+O backtracking é capaz de encontrar a solução ótima com menos cálculos do que uma busca exaustiva, tornando-o uma escolha mais eficiente em termos de tempo e recursos computacionais. Em resumo, o backtracking é uma técnica poderosa e eficiente que é amplamente utilizada em muitos problemas de busca e otimização.
