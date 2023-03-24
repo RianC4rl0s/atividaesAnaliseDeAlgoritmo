@@ -1,0 +1,17 @@
+Estado inicial: 10010110101011010
+Objetivo: Conjunto de letras abcd sendo
+
+a = 10, b = 100, c = 10101, d = 10110
+
+Estratégia de controle: pegar a maior quantidade de 0 e 1 possiveis, sempre lembrando que a próxima letra deve iniciar com um 1
+
+Árvore de Busca
+
+10010110101011010
+b 10110101011010
+b d 101011010
+b d c 1010
+b d c a 10
+b d c a a
+
+Resultado da decodificação utilizando essa árvore de busca: bdcaa
