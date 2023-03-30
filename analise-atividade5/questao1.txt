@@ -1,0 +1,7 @@
+1. a) Sim, pois ele quebra o problema em problemas menores (divide o vetor em dois e procura o máximo dos vetores menores),
+resolve os subproblemas recursivamente (compara os máximos obtidos dos subproblemas para chegar no máximo até aquele instante) 
+e resolve problemas muito pequenos de forma direta (se só existe um indice, retorna ele).
+
+   b) Serão feitas n - 1 comparações, pois para descobrir o maior número é necessário comparar todos os indices entre sí. Não 
+é n porque a cada 2 números, é feita 1 comparação.
+
